@@ -31,4 +31,53 @@ def basic():
     user2_info()
 
 basic()
+def win():
+    if(l[0]=='X' & l[1]=='X' & l[2]=='X'):
+        print('Player 1 wins')
+        win=True
+    elif (l[0] == 'X' & l[4] == 'X' & l[8] == 'X'):
+        print('Player 1 wins')
+        win = True
+    elif (l[8] == 'X' & l[5] == 'X' & l[2] == 'X'):
+        print('Player 1 wins')
+        win = True
+    elif (l[6] == 'X' & l[7] == 'X' & l[8] == 'X'):
+        print('Player 1 wins')
+        win = True
+    elif (l[6] == 'X' & l[4] == 'X' & l[2] == 'X'):
+        print('Player 1 wins')
+        win = True
+    elif (l[6] == 'X' & l[3] == 'X' & l[0] == 'X'):
+        print('Player 1 wins')
+        win = True
+    elif (l[3] == 'X' & l[4] == 'X' & l[5] == 'X'):
+        print('Player 1 wins')
+        win = True
+    elif (l[7] == 'X' & l[4] == 'X' & l[1] == 'X'):
+        print('Player 1 wins')
+        win = True
+    elif (l[0] == 'O' & l[1] == 'O' & l[2] == 'O'):
+        print('player 2 wins')
+        win = True
+    elif (l[0] == 'O' & l[4] == 'O' & l[8] == 'O'):
+        print('player 2 wins')
+        win = True
+    elif (l[8] == 'O' & l[5] == 'O' & l[2] == 'O'):
+        print('player 2 wins')
+        win = True
+    elif (l[6] == 'O' & l[7] == 'O' & l[8] == 'O'):
+        print('player 2 wins')
+        win = True
+    elif (l[6] == 'O' & l[4] == 'O' & l[2] == 'O'):
+        print('player 2 wins')
+        win = True
+    elif (l[6] == 'O' & l[3] == 'O' & l[0] == 'O'):
+        print('player 2 wins')
+        win = True
+    elif (l[3] == 'O' & l[4] == 'O' & l[5] == 'O'):
+        print('player 2 wins')
+        win = True
+    elif (l[7] == 'O' & l[4] == 'O' & l[1] == 'O'):
+        print('player 2 wins')
+        win = True
 
